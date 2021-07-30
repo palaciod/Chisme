@@ -19,6 +19,8 @@ module.exports = {
     extensions: ["*", ".js", ".jsx", ".tsx", ".ts"],
   },
   devServer: {
+    port: 3000,
+    host: "0.0.0.0",
     historyApiFallback: true,
   },
   module: {
